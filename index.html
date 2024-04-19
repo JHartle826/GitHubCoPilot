@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Access</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        .recipe-image {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        
+        .recipe-description {
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        form {
+            margin-bottom: 20px;
+        }
+        
+        form h2 {
+            margin-top: 0;
+        }
+        
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recipe Access</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Featured Recipes</h2>
+        <div class="recipe">
+            <img src="recipe1.jpg" alt="Recipe 1" class="recipe-image">
+            <p class="recipe-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nunc id ultrices aliquam, nunc nunc tincidunt nunc, id lacinia nunc nunc id nunc.</p>
+        </div>
+        
+        <div class="recipe">
+            <img src="recipe2.jpg" alt="Recipe 2" class="recipe-image">
+            <p class="recipe-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nunc id ultrices aliquam, nunc nunc tincidunt nunc, id lacinia nunc nunc id nunc.</p>
+        </div>
+    </main>
+    
+    <footer>
+        &copy; 2022 Recipe Access. All rights reserved.
+    </footer>
+    
+    <form>
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script>
+        // Add your JavaScript code here
+    </script>
+</body>
+</html>
